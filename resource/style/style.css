@@ -41,12 +41,12 @@ iframe[id^="vmx-frameInt_"] {
 iframe[id^="iframe-ads"] {
   /* @if environment != 'jio' */
   position: relative;
-  top: 26px;
+  /*top: 26px;*/
   border: none;
   /* @endif */
 }
 
-.holds-the-iframe {  
+.holds-the-iframe {
   display: none;
   background:url(../../assets/loading.png) center center no-repeat;
   position: absolute;
